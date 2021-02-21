@@ -1,0 +1,85 @@
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("blackbg.jpg");
+
+/*background PNG Designed By VectorPoint from <a href="https://pngtree.com">Pngtree.com</a>
+  /* Add the blur effect */
+
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.loginbox {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: #341126;
+  color: white;/*text */
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.submit{
+    padding: 5px;
+    background: #19B3D3;
+    text-decoration: none;
+    float: right;
+    margin-top: 30px;
+    margin-right: 965px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.5s;
+    transition-property: background;
+}
+
+.submit:hover{
+  background: #263B5B;
+}
+
+.lgbox{
+  padding: 5px;
+  background-color: Darkgrey;
+  margin-top: 3px;
+  margin-right: 0px;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+
+}
+
+.psbox{
+  padding: 5px;
+  background-color: Darkgrey;
+  margin-top: 3px;
+  margin-right: 0px;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+
+}
